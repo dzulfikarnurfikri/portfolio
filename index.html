@@ -5,20 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dzulfikar Nurfikri</title>
-    <link rel="icon" href="<?php echo base_url('asset/bootstrap/img/favicon.png') ?>">
-    <link href="<?php echo base_url('asset/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
-    <link href="<?php echo base_url('asset/bootstrap/css/animate.css') ?>" rel="stylesheet">
-    <link href="<?php echo base_url('asset/bootstrap/css/style.css') ?>" rel="stylesheet">
+    <link rel="icon" href="asset/bootstrap/img/favicon.png">
+    <link href="asset/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="asset/bootstrap/css/animate.css" rel="stylesheet">
+    <link href="asset/bootstrap/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   </head>
   <body id="body">
     <div class="box-loader">
       <div class="loader text-center">
-        <img src="<?php echo base_url('asset/bootstrap/img/load.gif') ?>" width="200">
+        <img src="asset/bootstrap/img/load.gif" width="200">
       </div>
     </div>
-    <?php $this->load->view('navbar') ?>
+    <nav class="navbar navbar-fixed-top navbar-default">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="#body" class="navbar-brand text-uppercase animated fadeInLeft slow scrollpage">dzulfikar nurfikri</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="navbar-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#tentang" class="scrollpage">TENTANG</a></li>
+				<li><a href="#layanan" class="scrollpage">LAYANAN</a></li>
+				<li><a href="#portfolio" class="scrollpage">PORTFOLIO</a></li>
+				<li><a href="#kontak" class="scrollpage">KONTAK</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
     <section class="banner text-white text-center">
       <img src="<?php echo base_url('asset/bootstrap/img/logo.png') ?>" class="wow zoomInDown slow">
       <h1 class="text-uppercase wow fadeInDown slow">dzulfikar nurfikri</h1>
@@ -162,10 +183,37 @@
       </div>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15848.766361414719!2d108.31933172262086!3d-6.746472112760958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f27520b1a8667%3A0x87abcda1972200db!2sTanjungsari%2C+Leuwimunding%2C+Majalengka+Regency%2C+West+Java!5e0!3m2!1sen!2sid!4v1545206830774" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>
-    <?php
-    $this->load->view('footer');
-    $this->load->view('bundle-script');
-    ?>
+   <footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h3 class="text-uppercase">alamat saat ini</h3><hr>
+				<p>Jl. Petojo VIJ VI No. 21, Gambir, Jakarta Pusat 10150.</p>
+			</div>
+			<div class="col-md-4">
+				<h3 class="text-uppercase">media sosial</h3><hr>
+				<ul>
+					<a target="_blank" href="https://www.facebook.com/nami.dzul" title="facebook"><li><i class="fab fa-fw fa-facebook-f"></i></li></a>
+					<a target="_blank" href="https://plus.google.com/u/0/104411526356897822902" title="Google Plus"><li><i class="fab fa-fw fa-google-plus-g"></i></li></a>
+					<a target="_blank" href="https://www.linkedin.com/in/dzulfikar-fitriana-6462b2174/" title="LinkedIn"><li><i class="fab fa-fw fa-linkedin-in"></i></li></a>
+					<a target="_blank" href="https://www.youtube.com/channel/UCH9i2E-k_CQ6YCylzfEuN5Q?view_as=subscriber" title="Youtube"><li><i class="fab fa-fw fa-youtube"></i></li></a>
+				</ul>
+			</div>
+			<div class="col-md-4">
+				<h3 class="text-uppercase">motto</h3><hr>
+				<p>Apa yang kamu berikan itulah yang akan kamu dapatkan</p>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="cr text-center">
+	<p>&copy; 2019 - Dzulfikar Nurfikri. All Right Reserved.</p>
+</div>
+    <script src="asset/jquery/jquery-2.2.3.min.js"></script>
+<script src="asset/bootstrap/js/bootstrap.min.js"></script>
+<script src="asset/bootstrap/js/wow.min.js"></script>
+<script src="asset/bootstrap/js/myscript.js"></script>
+<script src="asset/bootstrap/js/sweetalert.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
         $(".box-loader").hide();
