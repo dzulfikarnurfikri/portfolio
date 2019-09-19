@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dzulfikar Nurfikri</title>
+    <title>Dzulfikar Nurfikri | Ruang Belajar</title>
     <link rel="icon" href="<?php echo base_url('asset/bootstrap/img/favicon.png') ?>">
     <link href="<?php echo base_url('asset/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
     <link href="<?php echo base_url('asset/bootstrap/css/animate.css') ?>" rel="stylesheet">
