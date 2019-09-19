@@ -25,7 +25,7 @@
       <h2 class="font-weight wow fadeInUp slow">Web Developer - Graphic Designer - Tutor - Traveller</h2>
     </section><!-- end /.banner -->
     <section class="section-1 text-center" id="tentang">
-      <h1>TENTANG</h1><hr>
+      <h1>TENTANG KAMI</h1><hr>
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-md-offset-2 text-justify">
